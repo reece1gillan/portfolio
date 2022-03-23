@@ -119,3 +119,9 @@ p
   text-align: justify;
   text-justify: inter-word;
 }
+
+a
+{
+  font-weight: 300;
+  color: white;
+}
