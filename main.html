@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+  <body>
+    <header class=fixed>
+      <div class=header>
+        <h1>REECE GILLAN - GAME DEVELOPER / 3D ARTIST</h1>
+        <div style="width:100%">
+          <input type="button" value="ABOUT" class="pageButton" onClick="document.getElementById('about').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});" />
+          <input type="button" value="EDUCATION/EXPERIENCE" class="pageButton" onClick="document.getElementById('educationExperience').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});" />
+          <input type="button" value="ACADEMIC PROJECTS" class="pageButton" onClick="document.getElementById('academicProjects').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});" />
+          <input type="button" value="PERSONAL PROJECTS" class="pageButton" onClick="document.getElementById('personalProjects').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});" />
+          <input type="button" value="CONTACT" class="pageButton" onClick="document.getElementById('contact').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class = fixedBallBot>
+        <video width = 480 height = 480 autoplay muted loop onClick = "document.getElementById('fixedBallBot').scrollIntoView({behavior: 'auto', block: 'center',inline: 'center'});">
+          <source src="ball_bot_logo.webm" type="video/webm">
+        </video>
+      </div>
+      <div class = section>
+        <h2 id = about>ABOUT</h2>
+        <br>
+        <p>I'm a 4th year Computing and User Experience BSc (Hons) student at Edinburgh Napier University.
+
+          I'm currently working as a consultant for Unifii which I believe has improved many soft skills for working within a team and dealing with clients, it has also allowed me to gain hard skills such as project management, troubleshooting and scripting on the ServiceNow platform.
+
+          I've always been interested in game design and 3D art which led me to achieve a Computer Games Development HNC at Edinburgh College. In my free time, I have experimented with various creative medias, including game development and 3D modelling/animation.
+
+          I created this portfolio website with HTML, CSS and GitHub Pages to provide examples of my previous academic and personal projects which will demonstrate my current ability and ambition to learn more.</p>
+      </div>
+      <div class = sectionGrid>
+        <div>
+          <h2 id = educationExperience>EDUCATION</h2>
+          <br>
+          <h3>Edinburgh Napier University, 2019 - 2022</h3>
+          <p>Computing and User Experience BSc (Hons)</p>
+          <br>
+          <h3>QA Apprenticeships, 2018 - 2019</h3>
+          <p>Diploma for Information Technology and Telecommunications Professionals SCQF Level 6</p>
+          <br>
+          <h3>Edinburgh College, 2017 - 2018</h3>
+          <p>HNC Computer Games Development</p>
+        </div>
+        <div>
+          <h2>WORK EXPERIENCE</h2>
+          <br>
+          <h3>Unifii, 2021 - Current</h3>
+          <p>Part-time Consultant</p>
+          <br>
+          <h3>Unifii, 2020 - 2021</h3>
+          <p>Technical Intern</p>
+          <br>
+          <h3>Shelter Scotland, 2018 - 2019</h3>
+          <p>IT Service Desk Apprentice</p>
+        </div>
+      </div>
+        <div class = section>
+          <h2 id = academicProjects>ACADEMIC PROJECTS</h2>
+          <br>
+          <h3>Faster 2.0</h3>
+          <p>A 3D re-design of my 2D hyper-casual endless runner prototype 'Faster', designed for Android devices, created with Unity (C#). An additional dimension allows for the re-design to include physics based movement, destructible environments and more complex visuals. Original and re-design compared below.</p>
+          <br>
+          <div class = textCentre>
+            <video height = 500rem autoplay muted loop>
+              <source src="faster2.mp4" type="video/mp4">
+            </video>
+            <video height = 500rem autoplay muted loop>
+              <source src="faster.mp4" type="video/mp4">
+            </video>
+            <img src="faster2segments.png" alt="Faster 2.0" height = 500rem>
+            <img src="faster2player.png" alt="Faster 2.0" height = 500rem>
+          </div>
+        </div>
+        <div class = section>
+          <h2 id = personalProjects>PERSONAL PROJECTS</h2>
+          <br>
+          <h3 id = fixedBallBot>Ball Bot</h3>
+          <p>A series of animations of a robot character, modelled, rigged and animated in Blender.</p>
+          <br>
+          <div class = textCentre>
+            <video width = 32% autoplay muted loop>
+              <source src="ball_bot.mp4" type="video/mp4">
+            </video>
+            <video width = 32% autoplay muted loop>
+              <source src="ball_bot2.mp4" type="video/mp4">
+            </video>
+            <video width = 32% autoplay muted loop>
+              <source src="ball_bot3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class = section>
+          <h2 id = contact>CONTACT</h2>
+          <br>
+          <h3>Linkedin</h3>
+          <p>www.linkedin.com/in/reecegillan</p>
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="reecegillan" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/reecegillan?trk=profile-badge">Reece Gillan</a></div>
+          <br>
+          <h3>Email</h3>
+          <p>reece1gillan@gmail.com</p>
+        </div>
+    </main>
+  </body>
+</html>
